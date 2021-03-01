@@ -1,12 +1,29 @@
+$light: #FAFAFA;
+$yellow: #FFBF00;
+$turquoise: #0AA9E0;
+$purple: #67318A;
+$dark: #202556;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
 body{
-  background-color: pink;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  background-color: $dark;
+  background-image: url("bg_bggenerator_com.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Work Sans', sans-serif;
+  color: $dark;
   margin: 0;
   display: flex;
 }
 .nav{
-  background-color: palevioletred;
+  background-color: $purple;
+  background-image: url("nav_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   width: 20%;
   display: flex;
@@ -14,11 +31,13 @@ body{
   justify-content: space-evenly;
   align-items: center;
   position: fixed;
+  
   a{
-    color: white;
+    font-size: 2em;
+    color: $light;
     text-decoration: none;
     &:hover, &:focus{
-      color: indigo;
+      color: $yellow;
     }
   }
 }
@@ -27,16 +46,31 @@ body{
   width: 80%;
   .header{
     text-align: center;
+    color: $yellow;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
   }
   .content{
-    margin: 10px;
+    background-color: $light;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
     img{
       display: block;
       width: 20%;
       margin: auto;
     }
+    h3{
+      color:$turquoise;
+      font-family: 'Parisienne', cursive;
+      font-size: 1.8em;
+    }
+    h2{
+      color: $purple;
+    }
     p{
-      font-size: 1.2em;
+      font-size: 1.3em;
+      font-weight: bold;
     }
   }
 }
