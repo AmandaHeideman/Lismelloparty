@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Chocolate cake",
+    "portions": 6,
+    "category": ["cocolate", "raspberry"],
+    "allergies": ["vegan", "lactose"],
+    "url": "http://www.cake.com"
+  },
+  {
+    "name": "Vanilla cake",
+    "portions": 6,
+    "category": ["vanilla", "raspberry"],
+    "allergies": [],
+    "url": "http://www.morecake.com"
+  }
+]
