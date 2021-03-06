@@ -23,6 +23,15 @@
       <h1>Recept</h1>
     </div>
     <div class="content">
+      <div id="filterRecipes">
+        <select required name="filter" id="filter">
+          <option value="" disabled selected hidden>Filtera på specialkost</option>
+          <option value="ShowAll">Visa alla</option>
+          <option value="vegansk">Vegansk</option>
+          <option value="sockerfri">Sockerfri</option>
+          <option value="glutenfri">Glutenfri</option>
+        </select>
+      </div>
       <div class="recipe">
         <h3>Vegansk chokladtårta</h3>
         <p>
@@ -43,6 +52,7 @@
           att göra! I smeten har man citron och blåbär, och som fyllning är det en creme 
           cheese-frosting, även den med citron.
         </p>
+        <p class="hide">Specialkost: <span class="allergies">inga</span></p>
         <a target="_blank" rel="noopener noreferrer" href="https://thecakeblog.com/2016/06/lemon-blueberry-cake.html">Länk till receptet</a>
       </div>
 
@@ -53,6 +63,7 @@
           med både hallonmousse och passionfruktsmousse går det utmärkt att bara ha den ena, 
           och det går även bra att byt ut glazen om man skulle vilja det!
         </p>
+        <p class="hide">Specialkost: <span class="allergies">inga</span></p>
         <a target="_blank" rel="noopener noreferrer" href="http://www.mandibakar.se/glaserad-tarta-med-hallonmousse-passionsfruktsmousse-glazed-mirror-cake/">Länk till receptet</a>
       </div>
 
@@ -62,6 +73,7 @@
           Ytterligare en mirror glaze-tårta med mousse i! Precis som den andra kan man 
           välja själv vilken mousse man vill ha i.
         </p>
+        <p class="hide">Specialkost: <span class="allergies">inga</span></p>
         <a target="_blank" rel="noopener noreferrer" href="https://sverigesradio.se/artikel/6786803">Länk till receptet</a>
       </div>
 
