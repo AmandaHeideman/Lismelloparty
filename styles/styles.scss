@@ -74,4 +74,8 @@ body{
     }
   }
 }
-
+@media screen and (orientation: portrait){
+  .nav a{
+    font-size: 1em;
+  }
+}
