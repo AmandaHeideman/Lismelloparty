@@ -69,13 +69,29 @@ body{
       color: $purple;
     }
     p{
-      font-size: 1.3em;
+      font-size: 1.1em;
       font-weight: bold;
     }
   }
 }
 @media screen and (orientation: portrait){
-  .nav a{
-    font-size: 1em;
+  body{
+    display:initial;
+  }
+  .nav{
+    height: 10vh;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    a{
+      font-size: 1em;
+    }
+  }
+  .main{
+    margin-left: 0;
+    width: 100%;
   }
 }
