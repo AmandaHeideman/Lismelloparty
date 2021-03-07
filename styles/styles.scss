@@ -72,12 +72,20 @@ body{
       font-size: 1.1em;
       font-weight: bold;
     }
+    .cakes{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      img{
+        width: 100%;
+      }
+    }
   }
   .center{
     text-align: center;
   }
   #filterRecipes{
     float: right;
+    padding-top: 10px;
   }
   .hide{
     display: none;
@@ -102,5 +110,10 @@ body{
   .main{
     margin-left: 0;
     width: 100%;
+    .content{
+      .cakes{
+      }
+      
+    }
   }
 }
